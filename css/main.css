@@ -1,11 +1,32 @@
 body {
+    text-align: center;
     background: #a71d1d;
     color: white;
+    font-family: "Times New Roman",Serif;
+    background-image: url("../icone/favicon-32x32.png");
+    background-size: 30%;
+    background-position: center;
+    max-width: 375px;
 }
 
 h1 {
     color: yellow;
+    border: 4px dotted red;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    text-shadow: aqua -8px 8px 4px;
 }
 p1 {
     color: aqua;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1:hover {
+    text-shadow: chartreuse;
+}
+
+a:hover {
+    text-decoration: underline;
 }
