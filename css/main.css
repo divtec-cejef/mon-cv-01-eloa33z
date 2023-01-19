@@ -67,9 +67,8 @@ a:hover {
 
 .conteneur {
     display: grid;
-    grid-template-columns: 140px 140px;
+    grid-template-columns: 130px 130px;
     gap: 10px;
-    text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
